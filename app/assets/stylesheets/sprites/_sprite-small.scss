@@ -7,19 +7,21 @@
   height     : "104px"
 */
 
-.icf.icf_small {
-  background: image-url('sprites/small.png');
-  background-size: 78px auto;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  display: inline-block;
-  zoom: 1;
+.icon {
+  &.icon_small {
+    background: image-url('sprites/small.png');
+    background-size: 78px auto;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
 
-  &.icon_print { background-position: -5px -5px; }
-  &.icon_recipe { background-position: -31px -5px; }
-  &.icon_timer { background-position: -5px -31px; }
-  &.icon_trophy { background-position: -31px -31px; }
-  &.icon_user { background-position: -57px -5px; }
+    &.icon_print { background-position: -5px -5px; }
+    &.icon_recipe { background-position: -31px -5px; }
+    &.icon_timer { background-position: -5px -31px; }
+    &.icon_trophy { background-position: -31px -31px; }
+    &.icon_user { background-position: -57px -5px; }
+  }
 }
