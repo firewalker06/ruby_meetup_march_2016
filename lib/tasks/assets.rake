@@ -6,6 +6,8 @@ namespace :assets do
     class_name = "icon"
     icon_sizes = {
       small: 16,
+      medium: 24,
+      large: 32
     }
 
     icon_sizes.each do |size, width|

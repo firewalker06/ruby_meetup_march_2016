@@ -1,0 +1,25 @@
+/*
+  Generated using `bundle exec rake assets:resprite`
+
+  source path: "app/assets/sprites/large"
+  layout     : "packed"
+  width      : "168px"
+  height     : "168px"
+*/
+
+.icon {
+  &.icon_large {
+    background: image-url('sprites/large.png');
+    background-size: 84px auto;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+
+    &.icon_recipe { background-position: -5px -5px; }
+    &.icon_report { background-position: -47px -5px; }
+    &.icon_setting { background-position: -5px -47px; }
+  }
+}

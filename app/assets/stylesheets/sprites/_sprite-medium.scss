@@ -1,0 +1,25 @@
+/*
+  Generated using `bundle exec rake assets:resprite`
+
+  source path: "app/assets/sprites/medium"
+  layout     : "packed"
+  width      : "136px"
+  height     : "136px"
+*/
+
+.icon {
+  &.icon_medium {
+    background: image-url('sprites/medium.png');
+    background-size: 68px auto;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+
+    &.icon_search { background-position: -5px -5px; }
+    &.icon_share { background-position: -39px -5px; }
+    &.icon_trash { background-position: -5px -39px; }
+  }
+}
