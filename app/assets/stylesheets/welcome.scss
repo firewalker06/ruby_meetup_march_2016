@@ -19,3 +19,17 @@
     font-size: 0.8em;
   }
 }
+
+.search {
+  position: relative;
+
+  input {
+    padding-right: 48px;
+  }
+
+  .icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}
